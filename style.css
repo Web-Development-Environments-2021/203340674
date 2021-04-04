@@ -1,17 +1,78 @@
+body{
+	background: lightblue;
+	background: linear-gradient();
+	/* font-family:'Brush Script MT', cursive; */
+	font-family: 'papyrus', fantasy;
+	font-size: xx-large;
+	font-weight: 200;
+}
 #menu
 {
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;	
+	background: rgb(48, 193, 230);	
 	display: inline-block;
 	text-align: center;
 	color: rgb(43, 122, 226)
+}
+
+.menuBar a{
+	/* font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif; */
+	font-size: x-large;
+	font-family: 'Copperplate', fantasy;
 	
 }
+
+a:hover{
+	background-color: rgb(101, 134, 161);
+}
+
 .section{
 	text-align: center;
+	font-size: x-large;
 }
+
+/* .section{
+	font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+} */
+
+.like{
+	text-align:center;
+}
+
+.form{
+	transition: all;
+	text-align: center;
+	font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+}
+/* 
+.photos:hover {
+    position:inherit;
+    top:-25px;
+    left:-35px;
+    width: 50%;
+    height:350px;
+    display:block;
+    z-index:999;
+} */
+
+.column {
+	float:left;
+	width: 25%;
+	padding: 6px;
+  }
+
+  .row{
+	display: flex;
+  }
+
+/* 
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  } */
 
 
 

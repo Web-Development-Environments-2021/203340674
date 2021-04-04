@@ -25,7 +25,10 @@
 <br/>
 about me
 <br/>
-<p>
+<p class="about_me">
+  .אני משה גלס, נולדתי בפרנקפורט גרמניה ב1935 
+  עליתי לארץ ב7.7.41 עם הוריי ושני אחיי כשאני בן 6 . את הבר מצווה חגגתי בה' באייר תש"ח בתלאביב.
+היום אני גר בקבוצת יבנה עם אשתי תמרה ולנו 5 ילדים, 21 נכדים ו10 נינים (טפו טפו טפו!)
 </p>
 <br/>
 <br/>
@@ -165,19 +168,13 @@ contact me
     <input type="email" name="email" size="35" required>  
   </p>
   <br/>
-  <p class="mail">
+  <p class="mail_massage">
     <strong>Massage</strong><br/>
-    <textarea name="text_mail" style="resize: none;" rows="4" cols="100"></textarea><br/>
+    <textarea name="massage" style="resize: none;" rows="6" cols="50" data-emoji-picker="true"></textarea><br/>
   </p>
-  <button type="submit" style="font-size: x-large;">send</button>
+  <button type="submit" style="font-size: x-large; font-family: 'papyrus', fantasy;">send</button>
 <!-- <input type="submit" class="form-control submit" value="send massage"> -->
 </form>
-module.exports = EmojiPicker;
-<script>
-  (() => {
-    new EmojiPicker()
-  })()
-</script>
 <!-- class="form-control" -->
 <br/>
 <br/>
@@ -185,6 +182,12 @@ module.exports = EmojiPicker;
 <br/>
 </section>
 
+<script src="emoj.js"></script>
+<script>
+  (() => {
+    new EmojiPicker()
+  })()
+</script>
 
 <script type="text/javascript">
 $(function(){

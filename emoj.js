@@ -29,7 +29,7 @@ class EmojiPicker {
       }
     };
 
-    emojiInput.style.width = "70%";
+    emojiInput.style.width = "40%";
 
     const emojiContainer = document.createElement("div");
     emojiContainer.style.position = "relative";
@@ -55,7 +55,7 @@ class EmojiPicker {
     emojiPicker.style.top = "20px";
     emojiPicker.style.zIndex = "999";
     emojiPicker.style.display = "none";
-    emojiPicker.style.width = "295px";
+    emojiPicker.style.width = "500px";
     emojiPicker.style.padding = "7px 7px 7px 7px";
     emojiPicker.style.marginTop = "5px";
     emojiPicker.style.overflow = "hidden";
